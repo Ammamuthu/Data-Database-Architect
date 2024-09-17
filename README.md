@@ -137,6 +137,12 @@ We are seeking a highly skilled and versatile Data Architect / Database Engineer
 - **Education:**
   - Bachelor’s or Master’s degree in Computer Science, Data Science, Engineering, or a related field.
 
+**1.System Design - Concepts** <br>
+
+![Python](https://img.shields.io/badge/Go%20To%20Github%20Repo%20-8A2BE2) 
+
+ -  https://github.com/Ammamuthu/Data-Database-Architect/blob/7f2c7d08e09aa4d9204d3cd9a7825db41c1f2f20/System-Design/README.md
+
 
 
 
