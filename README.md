@@ -139,9 +139,9 @@ We are seeking a highly skilled and versatile Data Architect / Database Engineer
 
 **1.System Design - Concepts** <br>
 
-![Python](https://img.shields.io/badge/Go%20To%20Github%20Repo%20-8A2BE2) 
+![Python](https://img.shields.io/badge/Watch%20the%20Youtube%20Video%20for%20Basic%20Understanding%20of%20System%20Design-8A2BE2) 
 
- -  https://github.com/Ammamuthu/Data-Database-Architect/blob/7f2c7d08e09aa4d9204d3cd9a7825db41c1f2f20/System-Design/README.md
+ -  https://youtu.be/F2FmTdLtb_4?si=XlEir3KKMLyjZEE7
 
 
 
