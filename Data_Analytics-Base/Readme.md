@@ -1,4 +1,6 @@
 # Data Analysis Questions
+![image](https://github.com/user-attachments/assets/7e490712-8f7e-42db-9294-f25858dc7afa)
+
 
 # Query Execution ORDER
 
