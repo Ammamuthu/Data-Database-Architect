@@ -143,6 +143,8 @@ We are seeking a highly skilled and versatile Data Architect / Database Engineer
 
  -  https://youtu.be/F2FmTdLtb_4?si=XlEir3KKMLyjZEE7
 
+**2.Data Analytics  - Interview** <br>
+
 ![](https://img.shields.io/badge/Episode%20of%20Data%20Analytics%20Interview%20Prep%20-7EFF33)
 
    - https://github.com/Ammamuthu/Data-Database-Architect/tree/main/Data_Analytics-Base
