@@ -497,8 +497,8 @@ Many spreadsheet tools allow you to create charts from pivot table data for visu
 
 ### Reference:
 
-[Conditional Formating for Basic Begginers EXCEL]([Watch this video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-)
+[How to use Conditional Formating in EXCEL](https://youtu.be/XHT4paRaY4g?si=BmAYMNVOVR2lv1uC)
+
 
 Question -  more then 50000 format the colum
 ![image](https://github.com/user-attachments/assets/8b9e3203-bc92-43ac-875d-3225d9c26e08)
@@ -507,14 +507,17 @@ Question -  more then 50000 format the colum
 ## Step – 1:
 
 Home  > Ribbon > Conditional Formatting > New Rule
+
 ![image](https://github.com/user-attachments/assets/b3c07b83-3289-443f-ae57-682fa310dc8f)
 
  
 ### Step – 2:
+
 ![image](https://github.com/user-attachments/assets/3693fc3b-0b07-4c04-bcf0-0f21de481540)
 
 
 ### Step – 3:
+
 ![image](https://github.com/user-attachments/assets/bfc82c45-afd8-4f7d-b1be-3fa98a7a4bd8)
 
  
