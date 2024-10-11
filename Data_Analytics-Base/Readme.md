@@ -1,4 +1,4 @@
-# Data Analysis Questions
+![image](https://github.com/user-attachments/assets/89dcba5d-8fd3-4f14-8564-a6dfa6b48968)# Data Analysis Questions
 ![image](https://github.com/user-attachments/assets/7e490712-8f7e-42db-9294-f25858dc7afa)
 
 
@@ -236,6 +236,106 @@ Result:
 ## Summary:
 •	UNION gives you a unique list of names.
 •	UNION ALL gives you a complete list, including duplicates.
+
+<hr>
+<hr>
+
+# Episode - Excel Needs 
+
+## 1.  What is the difference between absolute and relative cell references, and when would you use each?
+
+#### Reference :
+
+https://edu.gcfglobal.org/en/excelformulas/relative-and-absolute-cell-references/1/
+
+Cell References : Normal Usage 
+Cell Absolute : Particular Scenario
+
+#### References :
+
+When we want to add two cells we just put like 
+
+= A1 + B1    And drag this toward till end . 
+
+It will work and change the Cells according to other Cells , It is Called References.
+
+Absolute:
+
+When we want to add a Two values but one of a cell value is Fixed now it will be Difficult For that we are using Absolute  Froze the cell value - Reference 
+
+= A1 * C1
+= A2 * C1
+= A3 * C1
+
+
+
+Like this we need but if we drag like previous it won’t work like Reference C1 also change to C2 .. So for that only we use $ – Symbol
+
+= A1 * $C$1     Now if you Drag below A1,A2.. An will change not C , This is called Absolute .
+
+![image](https://github.com/user-attachments/assets/6f745a8d-7446-4d92-b999-c2a80f1d3d58)
+
+## VLOOKUP
+
+#### Syntax:
+
+VLOOKUP(lookup_value,table_array,col_index_num,[large_lookup])
+
+| Parameter        | Description                                                   |
+|------------------|---------------------------------------------------------------|
+| `LOOKUP_VALE`    | What you want to lookup                                       |
+| `TABLE_ARRAY`    | Where you want to look for it                                 |
+| `col_index_num`  | The column number in the range containing the value to return |
+| `Range_Lookup`   | Approximate or Exact Match - indicated as `1`/`True` or `0`/`False` |
+
+
+### STEP – 1:
+
+Select the column as a Key ( Question)   What value you want to lookup 
+
+![image](https://github.com/user-attachments/assets/b3fc29c3-748a-4a18-8b48-20dce6115333)
+
+### STEP – 2:
+
+Select here all Value as a Table_array  these are the values it will check .
+
+![image](https://github.com/user-attachments/assets/8edf365c-c1b5-4532-b020-bc55379cc701)
+
+
+### STEP – 3
+
+Here all the Row as 1,2,3,4,5,6 and put the number col_index_num  For which number row you want to return a value
+ 
+![image](https://github.com/user-attachments/assets/2e99cef3-975e-4a9a-bf6b-2302132f3dfe)
+
+### STEP – 4
+
+=VLOOKUP(J18,A9:F26,6,FALSE)
+![image](https://github.com/user-attachments/assets/611f7761-ebfd-44cc-8ee7-1b035c407ae4)
+
+Whole formula look like above
+
+### Output :
+
+![image](https://github.com/user-attachments/assets/04a58699-d42e-4122-8cce-16ce46495089)
+
+# VLOOKUP Tips
+
+| Tip Number | Description                                                                                       |
+|------------|---------------------------------------------------------------------------------------------------|
+| 1          | The value you are trying to LOOKUP (key) must be in the first column for VLOOKUP to work.        |
+| 2          | When selecting the TABLE_Array, press `F4` after dragging and dropping to lock the values.      |
+| 3          | Avoid naming a value (LOOKUP) that is not present in the table.                                 |
+
+## FINAL VLOOKUP SHEET
+
+![image](https://github.com/user-attachments/assets/1b148f08-40b7-4d77-bd7b-3b998231d698)
+
+
+
+
+
+
 
 
 
