@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/89dcba5d-8fd3-4f14-8564-a6dfa6b48968)# Data Analysis Questions
+# Data Analysis Questions
 ![image](https://github.com/user-attachments/assets/7e490712-8f7e-42db-9294-f25858dc7afa)
 
 
@@ -251,7 +251,7 @@ https://edu.gcfglobal.org/en/excelformulas/relative-and-absolute-cell-references
 Cell References : Normal Usage 
 Cell Absolute : Particular Scenario
 
-#### References :
+### References :
 
 When we want to add two cells we just put like 
 
@@ -259,19 +259,27 @@ When we want to add two cells we just put like
 
 It will work and change the Cells according to other Cells , It is Called References.
 
-Absolute:
+### Absolute:
 
 When we want to add a Two values but one of a cell value is Fixed now it will be Difficult For that we are using Absolute  Froze the cell value - Reference 
 
-= A1 * C1
-= A2 * C1
-= A3 * C1
+# Example Formulas
+
+| Row | Formula     |
+|-----|-------------|
+| 1   | `=A1 * C1`  |
+| 2   | `=A2 * C1`  |
+| 3   | `=A3 * C1`  |
 
 
 
 Like this we need but if we drag like previous it won’t work like Reference C1 also change to C2 .. So for that only we use $ – Symbol
 
-= A1 * $C$1     Now if you Drag below A1,A2.. An will change not C , This is called Absolute .
+```excel
+= A1 * $C$1
+```  
+
+Now if you Drag below A1,A2.. An will change not C , This is called Absolute .
 
 ![image](https://github.com/user-attachments/assets/6f745a8d-7446-4d92-b999-c2a80f1d3d58)
 
@@ -279,7 +287,9 @@ Like this we need but if we drag like previous it won’t work like Reference C1
 
 #### Syntax:
 
+```excel
 VLOOKUP(lookup_value,table_array,col_index_num,[large_lookup])
+```
 
 | Parameter        | Description                                                   |
 |------------------|---------------------------------------------------------------|
@@ -310,7 +320,10 @@ Here all the Row as 1,2,3,4,5,6 and put the number col_index_num  For which n
 
 ### STEP – 4
 
+```excel
 =VLOOKUP(J18,A9:F26,6,FALSE)
+```
+
 ![image](https://github.com/user-attachments/assets/611f7761-ebfd-44cc-8ee7-1b035c407ae4)
 
 Whole formula look like above
@@ -330,6 +343,159 @@ Whole formula look like above
 ## FINAL VLOOKUP SHEET
 
 ![image](https://github.com/user-attachments/assets/1b148f08-40b7-4d77-bd7b-3b998231d698)
+
+<hr>
+
+## XLOOKUP
+
+### Syntax:
+
+```excel
+XLOOKUP(lookup_value, lookup_array, return_array, [if_not_found], [match_mode], [search_mode])
+```
+
+# VLOOKUP Parameters
+
+| Parameter       | Description                                                        |
+|------------------|--------------------------------------------------------------------|
+| `Lookup_value`   | The value to search for.                                           |
+| `Lookup_array`   | The range or array where to search.                                |
+| `Return_array`   | The range or array from which to return values.                   |
+| `If_not_found`   | [optional] The value to return if no match is found. Defaults to #N/A error if omitted. |
+| `Match_mode`     | [optional] The match type to perform.                              |
+
+### Step1:
+
+=XLOOKUP(What is Value that we looking for)  CELL 
+
+ ![image](https://github.com/user-attachments/assets/22637134-bf70-4c37-b223-09b1ab99f1f4)
+
+
+### Step – 2 :
+
+What are range we have to search as like Key : Value pair(Name column all should be search) – Range Cells
+
+![image](https://github.com/user-attachments/assets/f80bc07b-5785-4579-b614-a7fdb69e8ac8)
+
+ ### Step -3:
+
+What is Value should be need to return ( Total column should be the output Value ) – Range cells
+
+![image](https://github.com/user-attachments/assets/5ff5e144-8bb1-4ac3-a0ea-b1435a561623)
+
+ 
+
+#### Got the Output :
+ 
+![image](https://github.com/user-attachments/assets/218422b1-733e-4456-9e27-a092e308a35b)
+
+
+### Step – 4:
+
+When I drag down I get all output because we Presses f4 for Locked (F4 - Absolute cell reference).
+ 
+![image](https://github.com/user-attachments/assets/0515b6c8-a568-4219-867b-104d80408659)
+
+The Last name is not in the list so for that we need to pass a default value like this .
+
+### Step – 5 :
+
+Syntax : added a [if_not_found],   =XLOOKUP(J14,A11:A30,F11:F30,"No Name Present")
+
+Value should be in a “ “ .
+
+![image](https://github.com/user-attachments/assets/9dc4daa3-5e4c-4a22-bead-2e7dd23f1c12)
+
+
+Now we get a Output like no name present instead of syntax Error like (#N/A, #NAME).
+ 
+![image](https://github.com/user-attachments/assets/fac901bc-4ab7-4850-98ac-1f183765b9b7)
+
+### Final XLOOKUP SHEET
+
+![image](https://github.com/user-attachments/assets/9e65c642-1d20-48a2-b3b7-e49a1b20d949)
+
+<hr>
+
+## PIVOT Table:
+
+Pivot table is nothing but is used to show a value like grouped,sumerized,re-arrange etc ..
+
+### Go to insert :
+
+![image](https://github.com/user-attachments/assets/03eede37-7973-4a7c-8c73-87cb5c9f8046) 
+
+### Click Pivot Table
+
+![image](https://github.com/user-attachments/assets/9edfb58f-cc52-4ac9-ba5b-804eb5a47d87)
+
+These are all the fields that we have to play with it .
+
+### Output :
+
+This is how data Looks
+
+ ![image](https://github.com/user-attachments/assets/ed713faf-bb00-4811-82e1-4a82c5576f36)
+
+We can make like below output without any query just drag and drop
+
+![image](https://github.com/user-attachments/assets/fdfba84c-419a-489b-8ca3-9470128f3404)
+
+ <hr>
+
+# Excel – Questions
+
+## 1. How would you use VLOOKUP or XLOOKUP to merge data between two Excel sheets?
+
+**Sheet1:** Contains **Salesperson** and **TotalSales**.  
+**Sheet2:** Contains **Salesperson** and **Region**.  
+
+On **Sheet2**, in the third column, run the following commands:
+
+### VLOOKUP
+
+```excel
+=VLOOKUP(A2, Sheet2!A:B, 2, FALSE)
+```
+
+
+### XLOOKUP
+
+```excel
+=VLOOKUP(A2, Sheet2!A:B, 2, FALSE)
+```
+## Types of Data Analysis with Pivot Tables
+1.  Summarization:
+
+Quickly aggregate data to find totals, averages, counts, and other statistical measures.
+
+2. Comparative Analysis:
+
+Compare different categories (e.g., sales by region or product).
+ 
+3. Trend Analysis:
+
+Analyze trends over time by adding date fields to rows or columns and grouping them (e.g., by month or year).
+
+4. Data Filtering:
+
+Use filters to focus on specific data segments, making it easier to analyze subsets of your data.
+
+5. Cross-tabulation:
+
+Create a matrix view to show relationships between two categorical variables.
+
+6. What-If Analysis:
+
+Modify the data in your pivot table to see how changes affect outcomes.
+
+7. Visualization:
+
+Many spreadsheet tools allow you to create charts from pivot table data for visual analysis.
+
+
+
+ 
 
 
 
