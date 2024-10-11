@@ -493,21 +493,41 @@ Modify the data in your pivot table to see how changes affect outcomes.
 
 Many spreadsheet tools allow you to create charts from pivot table data for visual analysis.
 
+## 2.  How would you use conditional formatting to highlight cells that meet certain criteria?
 
+### Reference:
+
+[Conditional Formating for Basic Begginers EXCEL]([Watch this video](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+)
+
+Question -  more then 50000 format the colum
+![image](https://github.com/user-attachments/assets/8b9e3203-bc92-43ac-875d-3225d9c26e08)
+
+
+## Step – 1:
+
+Home  > Ribbon > Conditional Formatting > New Rule
+![image](https://github.com/user-attachments/assets/b3c07b83-3289-443f-ae57-682fa310dc8f)
 
  
+### Step – 2:
+![image](https://github.com/user-attachments/assets/3693fc3b-0b07-4c04-bcf0-0f21de481540)
 
 
+### Step – 3:
+![image](https://github.com/user-attachments/assets/bfc82c45-afd8-4f7d-b1be-3fa98a7a4bd8)
 
+ 
+### Step – 4:
+ ![image](https://github.com/user-attachments/assets/1db6ee79-6cd0-4b22-99b7-f6549cfb9cee)
 
+### Done
 
+3 . How do you use the IF, AND, and OR functions together to create complex logical tests?
 
+## Reference:
 
-
-
-
-
-
+[How to Use IF,AND and OR - With Multiple Ways](https://youtu.be/MMLGuZg3sI8?si=9JTG71miIwrFEuER)
 
 
 
